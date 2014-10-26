@@ -1,0 +1,16 @@
+net: "maxout.prototxt"
+test_iter: 1000
+test_interval: 2000
+base_lr: 0.0001
+lr_policy: "exp"
+gamma: 0.9999
+#stepsize: 10000
+display: 20
+max_iter: 300000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 5000
+snapshot_prefix: "maxout/"
+solver_mode: GPU
+
+  
